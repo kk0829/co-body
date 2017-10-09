@@ -1,7 +1,10 @@
 {
-  "name": "co-body",
-  "version": "5.1.1",
-  "repository": "cojs/co-body",
+  "name": "zan-co-body",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kk0829/co-body.git"
+  },
   "description": "request body parsing for co",
   "keywords": [
     "request",
@@ -16,7 +19,8 @@
     "inflation": "^2.0.0",
     "qs": "^6.4.0",
     "raw-body": "^2.2.0",
-    "type-is": "^1.6.14"
+    "type-is": "^1.6.14",
+    "zan-json-parse": "^1.0.0"
   },
   "devDependencies": {
     "istanbul": "^0.4.5",
